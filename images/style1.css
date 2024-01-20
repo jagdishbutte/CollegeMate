@@ -1,0 +1,50 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Carousel Styles */
+  .carousel-inner {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .carousel-item {
+    text-align: center;
+  }
+  
+  .card {
+    margin: 10px;
+  }
+  
+  /* Responsive Styles */
+  @media (min-width: 576px) {
+    .carousel-inner {
+      flex-wrap: wrap;
+    }
+    
+    .carousel-item {
+      width: 33.33%;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .carousel-item {
+      width: 50%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .carousel-item {
+      width: 33.33%;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .carousel-item {
+      width: 25%;
+    }
+  }
+  
